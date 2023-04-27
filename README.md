@@ -1,21 +1,21 @@
-## LangChain + ChatGPT para análise de dados
+## LangChain + ChatGPT for Data Analysis
 
-Este é um código que utiliza a biblioteca LangChain e a API ChatGPT da OpenAI para realizar análise de dados em um conjunto de dados.
+This is a code that uses the LangChain library and OpenAI's ChatGPT API to perform data analysis on a dataset.
 
-## Requisitos
+## Requirements
 
-Para executar este código, você precisará dos seguintes requisitos:
+To run this code, you will need the following requirements:
 
-Uma conta na plataforma OpenAI e uma chave de API
-Um arquivo CSV com os dados que deseja analisar
+An OpenAI platform account and an API key: You can create an account and obtain an API key by following the instructions on the [OpenAI website](https://beta.openai.com/docs/api-reference/authentication). Once you have an API key, you will need to add it to the .env file in this repository. To do this, simply create a new line in the file with the following format: OPENAI_API_KEY=<your-api-key> and replace <your-api-key> with your actual API key. Save the file after adding your key.
+A CSV file with the data you want to analyze
 
-Antes de executar o código, é necessário preencher a chave de API da OpenAI no arquivo .env. Após isso, basta executar o arquivo langchain_chatgpt.py para rodar o código.
+Before running the code, you need to fill in the OpenAI API key in the .env file. After that, simply run the langchain_chatgpt.py file to run the code.
 
-## O código irá executar as seguintes tarefas com o dataset modelo adicionado 'perfumes.csv':
+## The code will perform the following tasks with the added sample dataset 'perfumes.csv':
 
-- Identificar a categoria de produto com maior receita, o valor da receita e o produto mais vendido da categoria
-- Calcular a receita total de cada categoria e salvar em um arquivo Excel chamado "revenue_summary.xlsx" no computador
-- Gerar um gráfico de barras com a receita em milhões por categoria das 8 maiores categorias
-- Criar um novo arquivo Excel chamado "analise_perfumes.xlsx" e adicionar um separador chamado "revenue_by_year_month". Em seguida, ler o dataframe adicionado que contém informações de receita de produtos. No separador "revenue_by_year_month", agregar as colunas "Year", "Month of the year" e "Product Revenue" para cada "Month of The Year" (Mês do Ano). Por fim, salvar o arquivo Excel como "analise_perfumes.xlsx" no computador.
-- Gerar um gráfico com a receita por ano-mês.
+- Identify the product category with the highest revenue, the revenue value, and the best-selling product in the category.
+- Calculate the total revenue for each category and save it in an Excel file named "revenue_summary.xlsx" on the computer.
+- Generate a bar chart with revenue in millions per category of the top 8 categories.
+- Create a new Excel file named "analise_perfumes.xlsx" and add a tab named "revenue_by_year_month". Then, read the added dataframe containing product revenue information. In the "revenue_by_year_month" tab, aggregate the columns "Year", "Month of the year", and "Product Revenue" for each "Month of The Year". Finally, save the Excel file as "analise_perfumes.xlsx" on the computer.
+- Generate a chart with revenue by year-month.
 
