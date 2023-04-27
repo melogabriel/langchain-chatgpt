@@ -6,8 +6,8 @@ This is a code that uses the LangChain library and OpenAI's ChatGPT API to perfo
 
 To run this code, you will need the following requirements:
 
-An OpenAI platform account and an API key: You can create an account and obtain an API key by following the instructions on the [OpenAI website](https://beta.openai.com/docs/api-reference/authentication). Once you have an API key, you will need to add it to the .env file in this repository. To do this, simply create a new line in the file with the following format: OPENAI_API_KEY=<your-api-key> and replace <your-api-key> with your actual API key. Save the file after adding your key.
-A CSV file with the data you want to analyze
+- An OpenAI platform account and an API key: You can create an account and obtain an API key by following the instructions on the [OpenAI website](https://beta.openai.com/docs/api-reference/authentication). Once you have an API key, you will need to add it to the .env file in this repository. To do this, simply create a new line in the file with the following format: OPENAI_API_KEY=<your-api-key> and replace <your-api-key> with your actual API key. Save the file after adding your key.
+- A CSV file with the data you want to analyze
 
 Before running the code, you need to fill in the OpenAI API key in the .env file. After that, simply run the langchain_chatgpt.py file to run the code.
 
