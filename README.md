@@ -2,6 +2,8 @@
 
 This is a code that uses the LangChain library and OpenAI's ChatGPT API to perform data analysis on a dataset.
 
+Disclaimer: This project was made before OpenAI released Code Interpreter on ChatGPT Plus. With similar functions.
+
 ## Requirements
 
 To run this code, you will need the following requirements:
