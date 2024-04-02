@@ -1,0 +1,9 @@
+langchain
+langchain_experimental
+openai
+langchain-openai
+pandas
+tabulate
+openpyxl
+xlsxwriter
+matplotlib
