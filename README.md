@@ -1,6 +1,5 @@
-[![Image of repositories-views-counter](https://github.com/melogabriel/repositories-views-counter/blob/master/svg/633030414/badge.svg)](https://github.com/melogabriel/repositories-views-counter/blob/master/readme/633030414/week.md)
-
 ## LangChain + ChatGPT for Data Analysis
+[![Image of repositories-views-counter](https://github.com/melogabriel/repositories-views-counter/blob/master/svg/633030414/badge.svg)](https://github.com/melogabriel/repositories-views-counter/blob/master/readme/633030414/week.md)
 
 This is a code that uses the LangChain library and OpenAI's ChatGPT API to perform data analysis on a dataset.
 
